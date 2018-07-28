@@ -9,6 +9,8 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* nav styling */
+
 nav {
     position: fixed;
     top: 0;
@@ -52,7 +54,11 @@ nav ul li a {
     transition: .5s ease;
 }
 
-nav ul li a:active, a:hover {
+nav ul li a:active {
+    color: #ffffff;
+}
+
+nav ul li a:hover {
     color: #ffffff;
 }
 
@@ -60,6 +66,7 @@ nav ul li a:active, a:hover {
     display: inline-block;
     background-color: #ffffff;
     transition: .5s ease;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
 .scrolled .logo {
@@ -73,9 +80,17 @@ nav ul li a:active, a:hover {
     transform: translateZ(-1px) scale(1);
 }
 
-.scrolled ul li a:active, a:hover {
+.scrolled ul li a:active {
     color: #000000;
 }
+
+.scrolled ul li a:hover {
+    color: #000000;
+}
+
+/* enf of nav styling */
+
+/* header styling */
 
 header {
     box-sizing: border-box;
@@ -118,6 +133,10 @@ header * {
     margin: 0;
     padding: 1em 0;
 }
+
+/* end of header styling */
+
+/* methods styling */
 
 #methods {
     box-sizing: border-box;
